@@ -34,7 +34,7 @@ struct AddMovie: View {
           }.pickerStyle(WheelPickerStyle())
         }
  */
-        Section(header: Text("Rating")) {
+        Section(header: Text("Rating ⭐️")) {
           Slider(value: $rating, in: 0...5, step: 0.5)
           RatingView(rating: rating)
         }
